@@ -1,0 +1,164 @@
+$text-color: #FF0000;
+
+.container{
+	width: 915px;
+	margin: auto;
+
+}
+.clearfix{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+html{
+	background-color: #F2F2F2;
+
+	body{
+		text-align: center;
+		margin: 0px;
+		padding: 0px;
+		header{		
+			min-height: 116px;
+			
+
+			.logo{
+				float: left;
+				padding-top: 14px;
+			}
+
+			.text-header{
+				
+				font-family: 'Times New Roman', serif;
+				font-size: 18.26px;
+				font-style: italic;
+
+				text-align: right;
+				color: $text-color;
+
+				float: right;
+				padding-top: 30px;
+			}
+
+		}
+		.banner{
+			position: relative;
+
+
+			.cons{
+				position: absolute;
+				top: 30%;
+				left: 36%;
+				
+
+				.consult{
+					
+
+					p{
+						font-family: 'Times New Roman';
+						font-size: 24px;
+						font-weight: 700;
+						color: white;
+					}
+
+					a{
+							text-align: left;
+							display: inline-block;
+							min-height: 40px;
+							width: 253px;
+							background-image: url(../img/160.png);
+							background-repeat: no-repeat;
+							background-position: left;
+							background-color: red;
+							font-family: 'Trebuchet MS';
+							font-size: 13px;
+							font-weight: 700;
+							text-decoration: none;
+							color: white;
+							vertical-align: middle;
+							.btn{
+								padding-top: 5%;
+								padding-left: 18%
+								
+								
+						
+							}
+
+							
+					}
+					
+				}
+			}
+		}			
+			
+		main{
+			.advantages{
+				margin-top: 40px;
+				margin-bottom: 40px;
+
+
+				.opportunities{
+					font-family: 'Trebuchet MS';
+					font-size: 18.26px;
+					font-weight: 400;
+					display: inline-block;
+					width: 300px;
+					vertical-align: middle;
+					min-height: 178px;
+
+					.opportunities1{
+						margin-left: 5px;
+						margin-top: 10px;
+					}
+					.opportunities2{
+						margin-top: 24px;
+					}
+					.opportunities3{
+						margin-top: 30px;
+					}
+					.opportunities4{
+						margin-top: 26px;
+
+					}
+					.opportunities6{
+						margin-top: 16px;
+					}
+
+					
+
+
+				}
+			}	
+
+		}
+
+		footer{
+			.footer{
+				div{
+					color: $text-color;
+					font-family: 'Times New Roman';
+					font-size: 23px;
+					font-style: italic;
+					
+
+					
+				}
+
+				.contacts{
+					float: left;
+					text-align: left;
+					padding-top: 30px;
+					margin-bottom: 30px;
+				}
+
+				.soc{
+					float: right;
+					text-align: right;
+					padding-top: 30px;
+					margin-bottom: 30px;
+				}
+			}
+		}
+	}
+}

@@ -11,24 +11,33 @@
 
 html {
   background-color: #F2F2F2;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 html body {
   text-align: center;
   margin: 0px;
   padding: 0px;
+  height: 100%;
 }
 
-html body header {
+html body .content {
+  margin: 0 auto;
+  min-height: 100%;
+}
+
+html body .content header {
   min-height: 116px;
 }
 
-html body header .logo {
+html body .content header .logo {
   float: left;
   padding-top: 14px;
 }
 
-html body header .text-header {
+html body .content header .text-header {
   font-family: 'Times New Roman', serif;
   font-size: 18.26px;
   font-style: italic;
@@ -38,24 +47,24 @@ html body header .text-header {
   padding-top: 30px;
 }
 
-html body .banner {
+html body .content .banner {
   position: relative;
 }
 
-html body .banner .cons {
+html body .content .banner .cons {
   position: absolute;
   top: 30%;
   left: 34%;
 }
 
-html body .banner .cons .consult p {
+html body .content .banner .cons .consult p {
   font-family: 'Times New Roman';
   font-size: 24px;
   font-weight: 700;
   color: white;
 }
 
-html body .banner .cons .consult a {
+html body .content .banner .cons .consult a {
   text-align: left;
   display: inline-block;
   min-height: 40px;
@@ -72,17 +81,17 @@ html body .banner .cons .consult a {
   vertical-align: middle;
 }
 
-html body .banner .cons .consult a .btn {
+html body .content .banner .cons .consult a .btn {
   padding-top: 5%;
   padding-left: 18%;
 }
 
-html body main .advantages {
+html body .content main .advantages {
   margin-top: 40px;
   margin-bottom: 40px;
 }
 
-html body main .advantages .opportunities {
+html body .content main .advantages .opportunities {
   font-family: 'Trebuchet MS';
   font-size: 18.26px;
   font-weight: 400;
@@ -92,25 +101,29 @@ html body main .advantages .opportunities {
   min-height: 178px;
 }
 
-html body main .advantages .opportunities .opportunities1 {
+html body .content main .advantages .opportunities .opportunities1 {
   margin-left: 5px;
   margin-top: 10px;
 }
 
-html body main .advantages .opportunities .opportunities2 {
+html body .content main .advantages .opportunities .opportunities2 {
   margin-top: 24px;
 }
 
-html body main .advantages .opportunities .opportunities3 {
+html body .content main .advantages .opportunities .opportunities3 {
   margin-top: 30px;
 }
 
-html body main .advantages .opportunities .opportunities4 {
+html body .content main .advantages .opportunities .opportunities4 {
   margin-top: 26px;
 }
 
-html body main .advantages .opportunities .opportunities6 {
+html body .content main .advantages .opportunities .opportunities6 {
   margin-top: 16px;
+}
+
+html body footer {
+  margin-top: -52px;
 }
 
 html body footer .footer div {
@@ -123,13 +136,9 @@ html body footer .footer div {
 html body footer .footer .contacts {
   float: left;
   text-align: left;
-  padding-top: 30px;
-  margin-bottom: 30px;
 }
 
 html body footer .footer .soc {
   float: right;
   text-align: right;
-  padding-top: 30px;
-  margin-bottom: 30px;
 }
